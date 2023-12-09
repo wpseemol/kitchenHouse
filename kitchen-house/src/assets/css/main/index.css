@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .active {
+        @apply lg:border-b-2 lg:border-primaryColor lg:text-primaryColor lg:py-2 lg:duration-200;
+    }
+    .active {
+        @apply border-l-8 lg:border-l-0 border-primaryColor lg:pl-0 pl-7 lg:py-2 py-4 duration-200;
+    }
+}
